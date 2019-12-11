@@ -28,10 +28,7 @@ func (s Stdout_t) Read() string {
 
 func Popen(cmd ...string) Process {
 	proc := exec.Command(cmd[0], cmd[1:]...)
-	//fmt.Printf("%T\n", proc)
 	stdout, _ := proc.StdoutPipe()
-	//fmt.Printf("%T\n", stdout)
 	proc.Start()
-	//return proc, Stdout{stdout}
 	return Process{proc, Stdout_t{stdout}}
 }
