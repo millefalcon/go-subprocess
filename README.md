@@ -1,6 +1,6 @@
-# Project Title
+# Subprocess
 
-One Paragraph of project description goes here
+A subprocess API similar to that of `python` `subprocess` module
 
 ## Getting Started
 
