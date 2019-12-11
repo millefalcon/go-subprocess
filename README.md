@@ -8,11 +8,11 @@ A subprocess API similar to that of `python` `subprocess` module
 
 Get the module using
 
-	`go get github.com/millefalcon/go-subprocess/subprocess`
+	go get github.com/millefalcon/go-subprocess/subprocess
 
 or the other one
 
-	`go get github.com/millefalcon/go-subprocess/subproc`
+	go get github.com/millefalcon/go-subprocess/subproc
 
 ### Usage
 
