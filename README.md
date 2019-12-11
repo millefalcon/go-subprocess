@@ -9,7 +9,7 @@ A subprocess API similar to that of `python` `subprocess` module
 Get the module using
 
 	```
-	go get github.com/millefalcon/Go-Subprocess/subprocess
+	go get github.com/millefalcon/go-subprocess/subprocess
 	```
 
 ### Usage
@@ -22,7 +22,7 @@ import (
         "fmt"
 )
 
-import "github.com/millefalcon/Go-Subprocess/subprocess"
+import "github.com/millefalcon/go-subprocess/subprocess"
 
 func main() {
         proc := subprocess.Popen("ls")
