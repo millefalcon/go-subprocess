@@ -41,7 +41,7 @@ import (
         "fmt"
 )
 
-import "github.com/millefalcon/subprocess/go-subprocess/subproc"
+import "github.com/millefalcon/go-subprocess/subproc"
 
 func main() {
         proc := subproc.Popen("ls", "-l")
